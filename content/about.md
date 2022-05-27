@@ -16,7 +16,7 @@ I like to:
 - Listen to music ([last.fm](https://www.last.fm/user/Odyssey346))
 - Play games in VR
 - [Play games](https://steamcommunity.com/id/Odyssey346/)
-- Sit in bed for a while whenever I get the oppurtunity to
+- Sit in bed for a while whenever I get the opportunity to
 - Waste my money on stinkbuds (haha funny DankPods reference)
 ## Money
 If you would like to give me money for some reason, I have no idea why you would, but if you want to, here's my Monero QR code.
