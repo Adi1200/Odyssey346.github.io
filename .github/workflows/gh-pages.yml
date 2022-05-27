@@ -14,9 +14,9 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-      - name: get theme (epic hack)
-        run: |
-          git clone https://github.com/vaga/hugo-theme-m10c themes/m10c
+      #- name: get theme (epic hack)
+      #  run: |
+      #    git clone https://github.com/vaga/hugo-theme-m10c themes/m10c
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
