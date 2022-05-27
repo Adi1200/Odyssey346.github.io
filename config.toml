@@ -40,7 +40,7 @@ theme = 'm10c'
   [[params.social]]
     icon = "at-sign"
     name = "Email"
-    url = "mailto: odyssey346@disroot.org"
+    url = "mailto:odyssey346@disroot.org"
 
   [params.style]
     darkestColor = "#151515"
