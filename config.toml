@@ -19,6 +19,11 @@ theme = 'm10c'
     name = "About"
     url = "/about/"
     weight = 3
+  [[menu.main]]
+    identifier = "discord"
+    name = "Discord"
+    url = "https://discord.gg/GdsCQX5US2"
+    weight = 4   
 
 [params]
   author = "Odyssey346"
