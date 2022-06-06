@@ -1,7 +1,7 @@
 ---
 title: "Delete your old internet past"
 date: 2022-06-06T10:14:48+02:00
-draft: true
+draft: false
 readingTime: true
 tags: ["privacy", "guide"]
 ---
