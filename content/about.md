@@ -19,7 +19,7 @@ I like to:
 - Sit in bed for a while whenever I get the opportunity to
 - Waste my money on stinkbuds (haha funny DankPods reference)
 
-## Skills That Might Pay The Bills
+## Skills That *Might* Pay The Bills
 [![My Skills](https://skillicons.dev/icons?i=github,svelte,linux,html,raspberrypi,md,css)](https://skillicons.dev)
 
 ## Money
