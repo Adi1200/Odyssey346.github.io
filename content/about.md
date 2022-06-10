@@ -18,6 +18,10 @@ I like to:
 - [Play games](https://steamcommunity.com/id/Odyssey346/)
 - Sit in bed for a while whenever I get the opportunity to
 - Waste my money on stinkbuds (haha funny DankPods reference)
+
+## Skills That Might Pay The Bills
+[![My Skills](https://skillicons.dev/icons?i=github,svelte,linux,html,raspberrypi,md,css)](https://skillicons.dev)
+
 ## Money
 If you would like to give me money for some reason, I have no idea why you would, but if you want to, here's my Monero QR code.
 
