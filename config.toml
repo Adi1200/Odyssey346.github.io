@@ -41,7 +41,7 @@ theme = 'm10c'
   [[params.social]]
     icon = "message-circle"
     name = "Matrix"
-    url = "https://matrix.to/#/@odyssey346:projectsegfau.lt"
+    url = "https://matrix.to/#/@odyssey346:ohai.su"
   [[params.social]]
     icon = "at-sign"
     name = "Email"
