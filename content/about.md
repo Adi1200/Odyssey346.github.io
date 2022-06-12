@@ -5,6 +5,14 @@ draft: false
 ---
 # Well, who am I
 I'm a 14 year old Norwegian computer nerd who enjoys tinkering with code and software. I also like playing games. I sound really generic, don't I? Maybe cause I am.
+
+Here's a summary of my personality, in audio format:
+
+<audio controls>
+    <source src="../music/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.mp3" type="audio/mp3">
+    Seems like playing audio isn't supported in your browser.
+</audio>
+
 ## What I've done and made
 I've:
 - been in 3 organizations dabbling with computers. (Terrific Tea Studios, Neutron Technologies, [Project Segfault](https://projectsegfau.lt))
