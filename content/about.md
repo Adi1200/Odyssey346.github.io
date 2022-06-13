@@ -1,7 +1,5 @@
 ---
 title: "About"
-date: 2022-05-27T14:49:51+02:00
-draft: false
 ---
 # Well, who am I
 I'm a 14 year old Norwegian computer nerd who enjoys tinkering with code and software. I also like playing games. I sound really generic, don't I? Maybe cause I am.

@@ -47,3 +47,12 @@ There's a site called [Epieos](https://epieos.com) that requires login, but, all
 
 #### Contact
 If there's anything wrong with this article, or something you need help with, you can contact me by pressing the message bubble on the left side (or the chat button on the top of the site if you're on mobile).
+
+<script src="https://utteranc.es/client.js"
+        repo="Odyssey346/Odyssey346.github.io"
+        issue-term="pathname"
+        label="comment"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
