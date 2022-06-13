@@ -21,7 +21,7 @@ I've:
 I like to:
 - Listen to music ([last.fm](https://www.last.fm/user/Odyssey346))
 - Play games in VR
-- [Play games](https://steamcommunity.com/id/Odyssey346/)
+- Oh, and also play games. I like TF2
 - Sit in bed for a while whenever I get the opportunity to
 - Waste my money on stinkbuds (haha funny DankPods reference)
 
