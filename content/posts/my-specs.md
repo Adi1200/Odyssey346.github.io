@@ -15,6 +15,7 @@ I thought it'd be fun to make a post about my computers specs. Here you go, to t
 - HDD: Seagate Barracuda 3TB 3.5" HDD (5400 RPM)
 - Case: Cooler Master Trooper SE
 - Motherboard: ASUS ROG STRIX B450-F GAMING
+- PSU: Corsair RM1000X 1000W PSU
 
 ## Main rig, but not computer related
 - Mouse: MX Master 3
@@ -22,6 +23,8 @@ I thought it'd be fun to make a post about my computers specs. Here you go, to t
 - Headset: SteelSeries Arctis 5 (Black)
 - VR Headset: Oculus Quest 2 128GB
 - VR Cable: Random ass cheap 3 meter long USB3 cable
+- Operating System: Windows 11 Enterprise activated using MAS
+
 
 <script src="https://utteranc.es/client.js"
         repo="Odyssey346/Odyssey346.github.io"
