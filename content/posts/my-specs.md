@@ -24,8 +24,6 @@ I thought it'd be fun to make a post about my computers specs. Here you go, to t
 - VR Headset: Oculus Quest 2 128GB
 - VR Cable: Random ass cheap 3 meter long USB3 cable
 - Operating System: Windows 11 Enterprise activated using MAS
-
-
 <script src="https://utteranc.es/client.js"
         repo="Odyssey346/Odyssey346.github.io"
         issue-term="pathname"
