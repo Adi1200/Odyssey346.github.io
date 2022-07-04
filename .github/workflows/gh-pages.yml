@@ -17,6 +17,9 @@ jobs:
       - name: get theme (epic hack)
         run: |
           git clone https://github.com/Odyssey346/hugo-theme-odyssey themes/odyssey
+      - name: set up CNAME
+        run: |
+          cat "odyssey346.dev" >> CNAME
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
