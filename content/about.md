@@ -35,4 +35,6 @@ If you would like to give me money for some reason, I have no idea why you would
 
 If you can't scan the QR, here's my address instead: ``45wYu3oEAhu7s9aodftL2iBztYCdKzTZ4gaTRXGRRsN8cfVbdDMrVCEDmUczBiosE3ESVtyRKodXKgcTThyNsF2XGJvee5V``
 
-I have other methods of donating, but I mostly accept Monero cause like, it's cooler.
+OpenAlias is also set up on <a href="https://odyssey346.dev">odyssey346.dev</a>, so you can just put odyssey346.dev in a client that supports OpenAlias, for example MyMonero.
+
+I accept Monero because it's stable enough and it's 100% anonymous. I don't want to know who donates to me, I like mysteries.
