@@ -14,7 +14,7 @@ Here's a summary of my personality, in audio format:
 ## What I've done and made
 I've:
 - been in 3 organizations dabbling with computers. (Terrific Tea Studios, Neutron Technologies, [Project Segfault](https://projectsegfau.lt))
-- made a tool called [Fixdows](https://github.com/Odyssey346/Fixdows)
+- made a tool called Fixdows (now private)
 - lived for 14 years (amazing accomplishment)
 - Probably some more things I forgot.
 ## What do I like to do
