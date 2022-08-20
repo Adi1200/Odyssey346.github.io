@@ -1,6 +1,6 @@
 ---
 title: "Delete your old internet past"
-description: "Keep yourself safe from being doxxed/blackmailed with my guide."
+description: "Keep yourself safe from personal information leaks with my guide."
 date: 2022-06-06T10:14:48+02:00
 draft: false
 readingTime: true
