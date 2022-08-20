@@ -7,7 +7,7 @@ description: "I now self-host privacy frontends"
 author: Odyssey346
 tags: ["privacy", "self-hosting"]
 ---
-## Privacy and bandwidth is important.
+## Privacy and bandwidth are important.
 This is true. All those services like YouTube load an insane amount of bloat in your browser. All you want to do is watch a YouTube video? Enjoy like 10MB of JS, HTML, tracking etc. You agree that sucks, right? Well, you have [Invidious](https://invidious.io) and [Piped](https://github.com/TeamPiped/piped), which let you watch YouTube videos, without all the tracking and bloat. Same applies to Reddit, which has a privacy frontend called Libreddit. Bibliogram, Nitter, oh I can go on for days with this..
 
 ## Ok, here's what you've been waiting for
