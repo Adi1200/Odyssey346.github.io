@@ -1,5 +1,6 @@
 ---
 title: "Getting Minecraft to run on a legacy Intel iGPU with Adoptium/Temurin JRE"
+description: "Because legacy."
 date: 2022-07-04T16:44:44+02:00
 draft: false
 readingTime: true

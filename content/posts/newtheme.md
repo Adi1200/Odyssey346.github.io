@@ -5,6 +5,7 @@ draft: false
 readingTime: true
 tags: ["hugo", "css", "meta"]
 author: Odyssey346
+description: "It's time for a makeover."
 ---
 # New Theme for the blog!
 I was happy with the old theme but I like the Hello Friend theme. I liked the layout, but the theme, was ehh.. So I forked it! So the current theme have my changes. Light mode is a bit scuffed at the moment, but hey, it works.
