@@ -17,9 +17,6 @@ jobs:
       - name: get theme (epic hack)
         run: |
           git clone https://github.com/Odyssey346/hugo-theme-odyssey themes/odyssey
-      - name: set up CNAME
-        run: |
-          echo "odyssey346.dev" >> CNAME
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -36,3 +33,16 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./public
+  ipfs:
+    runs-on: ubuntu-latest
+    env:
+      WEB3_STORAGE_TOKEN: ${{ secrets.WEB3_STORAGE_TOKEN }}
+    steps:
+      - uses: actions/checkout@master
+      - uses: web3-storage/add-to-web3@v2
+        id: web3
+        with:
+          web3_token: ${{ secrets.WEB3_STORAGE_TOKEN }}
+          path_to_add: "./public"
+      - run: echo ${{ steps.web3.outputs.cid }}
+      - run: echo ${{ steps.web3.outputs.url }}
