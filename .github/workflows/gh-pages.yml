@@ -49,4 +49,4 @@ jobs:
         id: web3
         with:
           web3_token: ${{ secrets.WEB3_STORAGE_TOKEN }}
-          path_to_add: "./public"
+          path_to_add: "."
