@@ -49,4 +49,3 @@ jobs:
           web3_token: ${{ secrets.WEB3_STORAGE_TOKEN }}
           path_to_add: "./public"
         run: echo ${{ steps.web3.outputs.cid }}
-        run: echo ${{ steps.web3.outputs.url }}
