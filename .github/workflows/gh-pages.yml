@@ -39,8 +39,10 @@ jobs:
       WEB3_STORAGE_TOKEN: ${{ secrets.WEB3_STORAGE_TOKEN }}
     steps:
 
-      - name: Set branch
-        run: git branch gh-pages
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
 
       - name: Deploy
         uses: web3-storage/add-to-web3@v2
