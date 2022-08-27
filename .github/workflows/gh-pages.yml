@@ -43,7 +43,6 @@ jobs:
         run: git branch gh-pages
 
       - name: Deploy
-        uses: actions/checkout@master
         uses: web3-storage/add-to-web3@v2
         id: web3
         with:
