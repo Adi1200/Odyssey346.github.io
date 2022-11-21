@@ -2,7 +2,7 @@
 title: "About"
 ---
 # Well, who am I
-I'm a 14 year old Norwegian computer nerd who enjoys tinkering with code and software. I also like playing games. I sound really generic, don't I? Maybe cause I am.
+I'm a 15 year old Norwegian computer nerd who enjoys tinkering with code and software. I also like playing games. I sound really generic, don't I? Maybe cause I am.
 
 Here's a summary of my personality, in audio format:
 
@@ -13,7 +13,7 @@ Here's a summary of my personality, in audio format:
 
 ## What I've done and made
 I've:
-- been in 3 organizations dabbling with computers. (Terrific Tea Studios, Neutron Technologies, [Project Segfault](https://projectsegfau.lt))
+- been in 3 organizations dabbling with computers. (Terrific Tea Studios, Neutron Technologies, Project Segfault)
 - made a tool called Fixdows (now private)
 - lived for 14 years (amazing accomplishment)
 - Probably some more things I forgot.
@@ -29,7 +29,7 @@ I like to:
 [![My Skills](https://skillicons.dev/icons?i=github,svelte,linux,html,raspberrypi,md,css)](https://skillicons.dev)
 
 ## Money
-If you would like to give me money for some reason, I have no idea why you would, but if you want to, here's my Monero QR code.
+If you would like to give me money, thank you! I accept monero.
 
 ![Monero QR](../images/moneroQR.png)
 
