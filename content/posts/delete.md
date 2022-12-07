@@ -7,6 +7,7 @@ readingTime: true
 tags: ["privacy", "guide"]
 author: Odyssey346
 cover: "images/sherlock.png"
+covercaption: "Sherlock output of my username."
 ---
 ## My experience getting my information off of the Internet
 

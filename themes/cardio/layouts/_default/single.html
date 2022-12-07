@@ -1,0 +1,28 @@
+{{ define "main" }}
+<main>
+    <article>
+    <header>
+        {{ if .Date}}
+        <h1>{{ .Title }} - <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></h1>
+        {{else}}
+        <h1>{{ .Title }}</h1>
+        {{end}}
+        {{if .ReadingTime}}
+        <p>{{.ReadingTime}} min read</p>
+        {{end}}
+        {{ if .Params.Author}}
+        <p>Written by <b>{{.Params.Author}}</b></p>
+        {{end}}
+        <p>{{.WordCount}} words</p>
+        {{ if .Params.Cover}}
+        <img src="{{.Params.Cover | absURL}}" alt="{{.Title}}" style="max-width: 100%; max-height: 50%;  border-radius: 8px;">
+        {{end}}
+        {{ if .Params.CoverCaption}}
+        <p><i>{{ .Params.CoverCaption | markdownify }}</i></p>
+        {{end}}
+        <hr>
+    </header>
+        {{ .Content }}
+    </article>
+</main>
+{{ end }}

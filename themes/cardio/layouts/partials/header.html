@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<nav>
+<div class="nav">
+    <p><a class="navLinkHome" href="/">{{ with $.Site.Title}}{{ . }}{{else }}Roots{{ end }}</a> <span class="nav-desc">{{ with $.Site.Params.About.Subtext}}{{ . }}{{else }}A Hugo theme I made that takes inspiration from my old website.{{ end }}</span></p>
+    {{if $.Site.Menus.main}}
+    <div class="navLinks">
+    {{ range $.Site.Menus.main }}
+        {{ if not .HasChildren }}
+            <a class="navLink" href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+    {{ end }}
+    </div>
+    {{end}}
+</div>
+</nav>

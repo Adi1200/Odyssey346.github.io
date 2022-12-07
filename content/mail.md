@@ -3,6 +3,4 @@ title: My email
 ---
 # Well, like most people, I have an email address.
 
-My e-mail address is [odyssey346@disroot.org](mailto:odyssey346@disroot.org). I have other e-mail addresses than this one, but this is the one I'd like you to use.
-
-If you need my public key, [here it is.](../files/odyssey_email_pub.asc)
+My e-mail address is [hi@odyssey346.dev](mailto:hi@odyssey346.dev). I have other e-mail addresses, but I primarily use this one for contact.

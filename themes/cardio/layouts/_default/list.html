@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <main>
+  <h2>{{ .Description }}</h2>
+  {{ .Content }}
+  <div class="container">
+    <div class="blogsList">
+      {{ $pages := .Pages }}
+      {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+      {{ range (where $pages "Section" "!=" "") }}
+        {{ if .Params.Cover}}
+        <div class="blogPost hasCover" style="background-image: url({{.Params.Cover}}); background-size: cover;">
+        {{ else }}
+        <div class="blogPost">
+        {{ end }}
+          <h2>{{ .Title | markdownify }}</h2>
+          <h3><time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></a></h3>
+          <p>{{ .Description | markdownify }}</p>
+          {{if .ReadingTime}}
+          <a class="read-more button" href="{{ .RelPermalink }}"
+            >Read more ({{.ReadingTime}} min read) →</a
+          >
+          {{else}}
+          <a class="read-more button" href="{{ .RelPermalink }}"
+            >Read more →</a
+          >
+          {{end}}
+        </div>
+        {{ end }}
+    </div>
+  </div>
+  </main>
+{{ end }}

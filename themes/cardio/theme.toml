@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Cardio"
+license = "Apache License 2.0"
+licenselink = "https://github.com/Odyssey346/hugo-theme-cardio/blob/master/LICENSE"
+description = "A paper-looking theme for Hugo"
+homepage = "https://odyssey346.dev"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Odyssey"
+  homepage = "https://odyssey346.dev"
