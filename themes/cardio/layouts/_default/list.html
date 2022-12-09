@@ -1,7 +1,8 @@
 {{ define "main" }}
   <main>
-  <h2>{{ .Description }}</h2>
-  {{ .Content }}
+  {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) }}
+  <h2 style="padding-left: 1rem;">Posts with tag {{.Title}}</h2>
+  {{- end }}
   <div class="container">
     <div class="blogsList">
       {{ $pages := .Pages }}
@@ -13,7 +14,7 @@
         <div class="blogPost">
         {{ end }}
           <h2>{{ .Title | markdownify }}</h2>
-          <h3><time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time></a></h3>
+          <h3><time>{{ .Date.Format "Mon, Jan 2, 2006 @ 15.04 MST" }}</time></a></h3>
           <p>{{ .Description | markdownify }}</p>
           {{if .ReadingTime}}
           <a class="read-more button" href="{{ .RelPermalink }}"
@@ -24,7 +25,7 @@
             >Read more →</a
           >
           {{end}}
-        </div>
+          </div>
         {{ end }}
     </div>
   </div>
