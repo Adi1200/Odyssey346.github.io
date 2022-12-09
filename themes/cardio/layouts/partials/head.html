@@ -22,8 +22,8 @@
     <meta property="og:title" content="{{ .Title }}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ .Permalink }}" />
-    {{ if .Params.Image }}
-    <meta property="og:image" content="{{ .Params.Image }}" />
+    {{ if .Params.Cover }}
+    <meta property="og:image" content="{{ .Params.Cover | absURL }}" />
     {{ end }}
     {{ if .Description}}
     <meta property="og:description" content="{{ .Description }}" />

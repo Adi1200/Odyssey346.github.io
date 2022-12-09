@@ -6,6 +6,7 @@ readingTime: true
 tags: ["meta"]
 categories: ["meta"]
 description: "I switched themes. Again. This time it's my own theme."
+author: Odyssey346
 ---
 
 # So yes, I switched themes again.

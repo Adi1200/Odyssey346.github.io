@@ -15,6 +15,9 @@
         <p>Written by <b>{{.Params.Author}}</b></p>
         {{end}}
         <p>{{.WordCount}} words</p>
+        {{ if .Params.Category }}
+        <p>Category: <a href="/categories/{{.Params.Category}}">{{.Params.Category}}</a></p>
+        {{end}}
         {{ if .Params.Tags}}
         <p>Tags: {{range .Params.Tags}}<a href="/tags/{{.}}" class="tag-link">{{.}} </a>{{end}}</p>
         {{end}}

@@ -1,7 +1,9 @@
 {{ define "main" }}
+  {{ .Scratch.Add "blog" (dict "date" "2006-01-02" "title" "Title" "description" "Description" "cover" "Cover" "readingTime" "ReadingTime")}}
   <main>
   {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) }}
   <h2 style="padding-left: 1rem;">Posts with tag {{.Title}}</h2>
+  <a href="index.xml" class="rss-link">RSS for this tag</a>
   {{- end }}
   <div class="container">
     <div class="blogsList">
@@ -13,18 +15,18 @@
         {{ else }}
         <div class="blogPost">
         {{ end }}
+          {{ $date := .Date.Format "Mon, Jan 2, 2006 @ 15.04" }}
+          {{.Scratch.Set "date" $date}}
+          {{.Scratch.Set "author" .Params.Author}}
+          {{.Scratch.Set "readingTime" .ReadingTime}}
+          {{.Scratch.Set "wordCount" .WordCount}}
+          {{.Scratch.Set "readingTime" .ReadingTime}}
           <h2>{{ .Title | markdownify }}</h2>
-          <h3><time>{{ .Date.Format "Mon, Jan 2, 2006 @ 15.04" }}</time></a></h3>
+          <p class="blogPostMetadata">{{.Scratch.Get "date"}}{{if .Scratch.Get "author"}} • Written by {{.Scratch.Get "author"}}{{end}}{{if .Scratch.Get "readingTime"}} • {{.Scratch.Get "readingTime"}} min read{{end}}{{ if .Scratch.Get "wordCount"}} • {{.Scratch.Get "wordCount"}} words{{end}}</p>
           <p>{{ .Description | markdownify }}</p>
-          {{if .ReadingTime}}
-          <a class="read-more button" href="{{ .RelPermalink }}"
-            >Read more ({{.ReadingTime}} min read) →</a
-          >
-          {{else}}
           <a class="read-more button" href="{{ .RelPermalink }}"
             >Read more →</a
           >
-          {{end}}
           </div>
         {{ end }}
     </div>

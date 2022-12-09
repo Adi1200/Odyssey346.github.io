@@ -121,6 +121,18 @@ img {
     padding-left: 1rem;
 }
 
+.rss-link {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 1rem;
+    color: orange;
+}
+
+.blogPostMetadata {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 768px) {
     .nav {
         flex-direction: column;
