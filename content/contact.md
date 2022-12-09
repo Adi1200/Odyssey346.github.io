@@ -2,6 +2,7 @@
 title: "Contact"
 draft: false
 readingTime: false
+description: "Contact Odyssey346"
 ---
 
 # Contact
