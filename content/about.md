@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "About Odyssey346"
 ---
 # Well, who am I
 I'm a 15 year old Norwegian computer nerd who enjoys tinkering with code and software. I also like playing games. I sound really generic, don't I? Maybe cause I am.

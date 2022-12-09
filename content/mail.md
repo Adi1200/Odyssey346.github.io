@@ -1,5 +1,6 @@
 ---
 title: My email
+description: My email address
 ---
 # Well, like most people, I have an email address.
 
