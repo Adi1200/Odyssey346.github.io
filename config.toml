@@ -46,13 +46,9 @@ theme = 'cardio'
         name = "GitHub"
         url = "https://github.com/Odyssey346"
       [[languages.en.menu.main]]
-        identifier = "matrix"
-        name = "Matrix"
-        url = "https://matrix.to/#/@odyssey:trygve.me"
-      [[languages.en.menu.main]]
-        identifier = "email"
-        name = "E-mail"
-        url = "/mail"
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
       [[languages.en.menu.main]]
         identifier = "rss"
         name = "RSS"
