@@ -14,7 +14,7 @@
         <div class="blogPost">
         {{ end }}
           <h2>{{ .Title | markdownify }}</h2>
-          <h3><time>{{ .Date.Format "Mon, Jan 2, 2006 @ 15.04 MST" }}</time></a></h3>
+          <h3><time>{{ .Date.Format "Mon, Jan 2, 2006 @ 15.04" }}</time></a></h3>
           <p>{{ .Description | markdownify }}</p>
           {{if .ReadingTime}}
           <a class="read-more button" href="{{ .RelPermalink }}"
