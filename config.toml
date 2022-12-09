@@ -53,6 +53,10 @@ theme = 'cardio'
         identifier = "email"
         name = "E-mail"
         url = "/mail"
+      [[languages.en.menu.main]]
+        identifier = "rss"
+        name = "RSS"
+        url = "/index.xml"
 
 #[menu]
 #  [[menu.main]]
